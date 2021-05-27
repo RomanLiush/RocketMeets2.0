@@ -1,0 +1,5 @@
+{
+  "serverPort": 3001,
+  "dbUrl": "mongodb+srv://admin:admin@rocketmeets.o84s9.mongodb.net/RocketMeets?retryWrites=true&w=majority",
+  "secretKey": "RocketMeetsSecret"
+}

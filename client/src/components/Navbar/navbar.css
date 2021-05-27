@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 1rem;
+}
+
+.navbar__item {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.navbar__registration {
+  margin-left: 5rem;
+}
+
+.navbar__registration, .navbar__login {
+  height: 3rem;
+  width: 7rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  color: #d8e9ef;
+  background-color: #4ea1d3;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__login:hover {
+  background-color: #7bb1d1;
+  cursor: pointer;
+}
+
+.navbar__registration:hover {
+  background-color: #7bb1d1;
+  cursor: pointer;
+}
+
